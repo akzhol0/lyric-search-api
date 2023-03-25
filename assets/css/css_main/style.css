@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+@import "../reset.css";
+
+html, body {
+    background-color: #18191A;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.search-container {
+    width: 100%;
+    min-height: 400px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.search-wrapper {
+    width: 800px;
+    min-height: 200px;
+    background: #0080ff;
+    border-radius: 30px;
+}
+
+.search-wrapper h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    cursor: default;
+    margin: 30px 0 0 0;
+}
+
+.inp-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.inp-wrapper input {
+    width: 400px;
+    height: 35px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0 0 0 20px;
+}
+
+.btn-search {
+    width: 50px;
+    right: 200px;
+    justify-content: center;
+    position: absolute;
+    height: 35px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    background-color: #fff;
+}
+
+#res {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    color: red;
+}
+
+label {
+    cursor: default;
+}
+
+.gay {
+    display: flex;
+}
+
+.results {
+    width: 1000px;
+    min-height: auto;
+    border-radius: 30px;
+    background: #0080ff;
+}
+
+.results h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.results .block {
+    padding: 0 30px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    cursor: default;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image {
+    width: 70px;
+    height: 70px;
+}
+
+.gay p {
+    font-size: 25px;
+    margin: 0 0 0 30px;
+}
+
+.title {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.btn-get-lyrics {
+    width: 80px;
+    height: 40px;
+    background-color: #fff;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all 0.2s;
+    color: #000;
+}
+
+.btn-get-lyrics:hover {
+    background-color: #000;
+    color: #fff;
+}

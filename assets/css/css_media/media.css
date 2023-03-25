@@ -1,0 +1,69 @@
+@media only screen and (max-width: 1200px) {
+    .results {
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .results {
+        width: 700px;
+    }
+    .gay {
+        display: block;
+    }
+    .search-wrapper {
+        width: 700px;
+    }
+    .btn-search {
+        right: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .results {
+        width: 420px;
+    }
+    .search-wrapper {
+        width: 420px;
+    }
+    .inp-wrapper input {
+        width: 300px;
+    }
+    .btn-search {
+        right: 60px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .results {
+        width: 290px;
+    }
+    .search-wrapper {
+        width: 290px;
+    }
+    .inp-wrapper input {
+        width: 200px;
+    }
+    .btn-search {
+        right: 45px;
+    }
+    .gay p {
+        font-size: 16px;
+        margin: 0 0 0 20px;
+    }
+    .results .block {
+        padding: 0 10px;
+        height: 80px;
+    }
+    .image {
+        width: 60px;
+        height: 60px;
+    }
+    .btn-get-lyrics {
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+/* 330 lowest */
